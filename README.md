@@ -3,8 +3,10 @@ Code for the paper "SCAR: Practical Backdoor Attacks Against Split Learning"
 
 # Our method of label inference and backdoor attack
 
-usage: label_inference_and_backdoor_attack.py [-h] [--dataset DATASET]  
-                                              [--target_label TARGET_LABEL]  
+usage: label_inference_and_backdoor_attack.py [-h] [--dataset DATASET]
+
+                                              [--target_label TARGET_LABEL]
+                                              
                                               [--target_label_candidates_number TARGET_LABEL_CANDIDATES_NUMBER]
                                               
                                               [--test_parameter TEST_PARAMETER]
@@ -36,17 +38,12 @@ usage: label_inference_and_backdoor_attack.py [-h] [--dataset DATASET]
 
 You can run the code as follow:
 
-python -u label_inference_and_backdoor_attack.py --dataset MNIST --backdoor_epochs 10
-
-python -u label_inference_and_backdoor_attack.py --dataset imagenette --backdoor_epochs 100
-
-python -u label_inference_and_backdoor_attack.py --dataset Cifar10
-
-python -u label_inference_and_backdoor_attack.py --dataset cinic10
-
-python -u label_inference_and_backdoor_attack.py --dataset bank
-
-python -u label_inference_and_backdoor_attack.py --dataset givemesomecredit
+python -u label_inference_and_backdoor_attack.py --dataset MNIST --backdoor_epochs 10  
+python -u label_inference_and_backdoor_attack.py --dataset imagenette --backdoor_epochs 100  
+python -u label_inference_and_backdoor_attack.py --dataset Cifar10  
+python -u label_inference_and_backdoor_attack.py --dataset cinic10  
+python -u label_inference_and_backdoor_attack.py --dataset bank  
+python -u label_inference_and_backdoor_attack.py --dataset givemesomecredit  
 
 # Experiments of impact of Client Numbers
 
@@ -72,8 +69,6 @@ usage: data_split_backdoor.py [-h] [--dataset DATASET]
                                                
 You can run the code as follow:
 
-python -u data_split_backdoor.py --dataset Cifar10 --n_workers 4 --id_attacker 1
-
-python -u data_split_backdoor.py --dataset Cifar10 --n_workers 8 --id_attacker 3
-
-python -u data_split_backdoor.py --dataset Cifar10 --n_workers 16 --id_attacker 7
+python -u data_split_backdoor.py --dataset Cifar10 --n_workers 4 --id_attacker 1  
+python -u data_split_backdoor.py --dataset Cifar10 --n_workers 8 --id_attacker 3  
+python -u data_split_backdoor.py --dataset Cifar10 --n_workers 16 --id_attacker 7  
