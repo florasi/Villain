@@ -36,8 +36,7 @@ usage: label_inference_and_backdoor_attack.py [-h] [--dataset DATASET]
                                               [--upload_method UPLOAD_METHOD]
                                               
 
-You can run the code as follow:
-
+You can run the code as follow:  
 python -u label_inference_and_backdoor_attack.py --dataset MNIST --backdoor_epochs 10  
 python -u label_inference_and_backdoor_attack.py --dataset imagenette --backdoor_epochs 100  
 python -u label_inference_and_backdoor_attack.py --dataset Cifar10  
@@ -67,8 +66,7 @@ usage: data_split_backdoor.py [-h] [--dataset DATASET]
                               
                               [--id_attacker ID_ATTACKER]
                                                
-You can run the code as follow:
-
+You can run the code as follow:  
 python -u data_split_backdoor.py --dataset Cifar10 --n_workers 4 --id_attacker 1  
 python -u data_split_backdoor.py --dataset Cifar10 --n_workers 8 --id_attacker 3  
 python -u data_split_backdoor.py --dataset Cifar10 --n_workers 16 --id_attacker 7  
