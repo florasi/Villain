@@ -67,6 +67,4 @@ usage: data_split_backdoor.py [-h] [--dataset DATASET]
                               [--id_attacker ID_ATTACKER]
                                                
 You can run the code as follow:  
-python -u data_split_backdoor.py --dataset Cifar10 --n_workers 4 --id_attacker 1  
-python -u data_split_backdoor.py --dataset Cifar10 --n_workers 8 --id_attacker 3  
-python -u data_split_backdoor.py --dataset Cifar10 --n_workers 16 --id_attacker 7  
+python -u data_split_backdoor.py --dataset Cifar10 --n_workers 4 --id_attacker 1   
