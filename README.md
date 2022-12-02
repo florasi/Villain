@@ -3,6 +3,7 @@ Code for the paper "SCAR: Practical Backdoor Attacks Against Split Learning"
 
 # Our method of label inference and backdoor attack
 
+
 usage: label_inference_and_backdoor_attack.py [-h] [--dataset DATASET]
 
                                               [--target_label TARGET_LABEL]
@@ -45,6 +46,7 @@ python -u label_inference_and_backdoor_attack.py --dataset bank
 python -u label_inference_and_backdoor_attack.py --dataset givemesomecredit  
 
 # Experiments of impact of Client Numbers
+
 
 usage: data_split_backdoor.py [-h] [--dataset DATASET]
 
