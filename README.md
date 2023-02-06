@@ -1,5 +1,5 @@
-# Scar
-Code for the paper "SCAR: Practical Backdoor Attacks Against Split Learning"
+# Villain
+Code for the paper "VILLAIN: Practical Backdoor Attacks Against Split Learning"
 
 # Our method of label inference and backdoor attack
 
