@@ -1,5 +1,5 @@
 # Villain
-Code for the paper "VILLAIN: Backdoor Attacks Against Vertical Split Learning"
+Code for the paper "VILLAIN: Backdoor Attacks Against Vertical Split Learning". Now we are adjusting the code and will upload it again soon.
 
 # Our method of label inference and backdoor attack
 
