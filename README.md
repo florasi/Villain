@@ -1,6 +1,8 @@
 # Backdoor Attacks Against Vertical Split Learning
 Code for the paper "Backdoor Attacks Against Vertical Split Learning". Now we are refining the journal editions and will open source soon.
 
+![avatar](/samples/sleuth_whole.png)
+
 # Our method of label inference and backdoor attack
 
 usage: label_inference_and_backdoor_attack.py [-h] [--dataset DATASET]
